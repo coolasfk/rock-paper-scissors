@@ -3,6 +3,7 @@ const result = document.getElementById('result');
 const paper = document.getElementById('paper');
 const scissors = document.getElementById('scissors');
 const rock = document.getElementById('rock');
+const weapon = document.getElementById('.chooseWeapon');
 
 let myChoice = "paper";
 
@@ -11,18 +12,27 @@ let myChoice = "paper";
           case 'paper':
           paper.addEventListener('click', () => {
               myChoice = "paper"
+              scissors.removeAttribute('style')
+              rock.removeAttribute('style')
+              paper.style.border = "1px dotted #774c77";
               playGame()
               console.log(myChoice)
           })
           case 'rock':
           rock.addEventListener('click', () => {
               myChoice = "rock"
+              scissors.removeAttribute('style')
+              paper.removeAttribute('style')
+              rock.style.border = "1px dotted #774c77";
               playGame()
               console.log(myChoice)
           })
           case 'scissors':
           scissors.addEventListener('click', () => {
               myChoice = "scissors"
+              rock.removeAttribute('style')
+              paper.removeAttribute('style')
+              scissors.style.border = "1px dotted #774c77";
               playGame()
               console.log(myChoice)
           })
