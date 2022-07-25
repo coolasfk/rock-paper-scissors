@@ -134,8 +134,9 @@ h1 {
     }
     
     h1 {
-        padding: 1vw;
+        padding: 5vw;
         color: #774c77;
+        margin: 5vw 0 2vw 0;
     }
     
     
@@ -194,7 +195,7 @@ h1 {
         font-family: 'Roboto-Light', 'Roboto';
         font-size: 1rem;
         color: #774c77;
-        margin: -1.5vw 0 3vw 0;
+        margin: -7vw 0 3vw 0;
     
     }
     
@@ -205,13 +206,12 @@ h1 {
     #result {
         display: flex;
         margin: -4vw 0;
-        padding-left: 50%;
-        padding-right: 50%;
         color: white;
         font-size: 2rem ;
         text-align: center;
         justify-items: center;
         align-items: center;
+        max-width: 80%;
         
     }
     
@@ -221,7 +221,8 @@ h1 {
         font-family: 'Roboto-Light', 'Roboto';
         font-size: 1rem;
         color: #774c77;
-        margin: 4vw 0 0 0;
+        margin: 10vw 0 0 0;
+        padding: 4vw;
     }
     .play_again:hover {
        
