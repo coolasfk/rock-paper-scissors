@@ -1,0 +1,15 @@
+body {
+    height: 100vw;
+    width: 100vh;
+  
+    background-color: red !important;
+    border:2px solid blue !important;
+  }
+  
+  @media (max-height: 700px) {
+  
+    body {
+      background-color: green !important;
+      border:2px solid black !important;
+    }
+  }
