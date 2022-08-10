@@ -33,9 +33,9 @@ function comp_scores(){
     switch(myChoice) {
         
           case 'paper':
-          paper.addEventListener('click', paper_choice)
+          paper.addEventListener('touchend', paper_choice)
           case 'rock':
-          rock.addEventListener('click', rock_choice)
+          rock.addEventListener('touchend', rock_choice)
           case 'scissors':
           scissors.addEventListener('click', scissors_choice)
         
@@ -48,6 +48,17 @@ function comp_scores(){
             playGame()
             console.log(myChoice)
           }
+
+
+
+
+
+
+
+
+
+
+          
           function scissors_choice(){
            
              myChoice = "scissors"
@@ -67,13 +78,13 @@ function comp_scores(){
             console.log(myChoice)
           }
 
-const list = ['paper', 'rock', 'scissors']  
+
 
 function playGame() {
     
     
     
- 
+ const list = ['paper', 'rock', 'scissors']  
 
     if (your_score >=4){
     result.innerText = `Congrats! You won 9 to ${comp_score}!`
