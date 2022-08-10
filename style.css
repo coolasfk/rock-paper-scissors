@@ -140,6 +140,7 @@ h1 {
     }
     
     h1 {
+        display: flex;
         padding: 5vw;
         color: #774c77;
         margin: 5vw 0 2vw 0;
