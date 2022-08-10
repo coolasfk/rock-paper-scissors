@@ -26,9 +26,13 @@ body {
 }
 
 h1 {
+    display: flex;
     padding: 1vw;
+    margin-left: 50%;
+    margin-right: 50%;
     color: #774c77;
-    text-align: center:
+    text-justify: center;
+    text-align: center;
 }
 
 
