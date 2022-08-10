@@ -32,7 +32,6 @@ h1 {
     margin-right: 50%;
     width: 100vw;
     color: #774c77;
-    text-justify: center;
     text-align: center;
 }
 
@@ -144,6 +143,13 @@ h1 {
         padding: 5vw;
         color: #774c77;
         margin: 5vw 0 2vw 0;
+        display: flex;
+    padding: 5vw;
+    margin-left: 50%;
+    margin-right: 50%;
+    width: 100vw;
+    color: #774c77;
+    text-align: center;
     }
     
     
