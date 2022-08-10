@@ -160,22 +160,22 @@ h1 {
     #scissors {
         padding: 3vw;
         content: 3vw; 
-        height: 30vw;
-        width: 30vw;
+        height: 25vw;
+        width: 25vw;
     }
     
     #paper {
         padding: 3vw;
         content: 3vw; 
-        height: 30vw;
-        width: 30vw;
+        height: 25vw;
+        width: 25vw;
     }
     
     #rock {
         padding: 7vw 3vw 3vw 3vw;;
         content: 3vw; 
-        height: 30vw;
-        width: 30vw;
+        height: 25vw;
+        width: 25vw;
     }
     
     .computer {
