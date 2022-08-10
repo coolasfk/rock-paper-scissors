@@ -134,10 +134,7 @@ h1 {
         padding: 1.5vw;
         }
     
-    #result, h1 {
-        font-size: 1.5rem;
-        font-family: 'Playfair Display', serif;
-    }
+
     
     h1 {
         flex-wrap: nowrap;
@@ -153,6 +150,7 @@ h1 {
     color: #774c77;
     text-align: center;
     font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
    
     }
     
@@ -221,7 +219,7 @@ h1 {
         display: flex;
         margin: -4vw 0;
         color: white;
-        font-size: 2rem ;
+        font-size: 1.5rem ;
         text-align: center;
         justify-items: center;
         align-items: center;
