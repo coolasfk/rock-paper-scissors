@@ -33,9 +33,9 @@ function comp_scores(){
     switch(myChoice) {
         
           case 'paper':
-          paper.addEventListener('touchend', paper_choice)
+          paper.addEventListener('click', paper_choice)
           case 'rock':
-          rock.addEventListener('touchend', rock_choice)
+          rock.addEventListener('click', rock_choice)
           case 'scissors':
           scissors.addEventListener('click', scissors_choice)
         
